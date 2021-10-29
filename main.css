@@ -46,6 +46,20 @@ header.masthead {
 
   /* name end */
 
+  .heading{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    color: #0DB7FF;
+    text-shadow: 8px -8px rgba(71, 61, 139, 0.568);
+    margin: 0;
+    padding: 0;
+}
+
   /* background start */
   .hero-image {
     background-image: url("images/background.jpg");
@@ -67,10 +81,9 @@ header.masthead {
   }
 
   /* background end */
+   /* landing social icons start */
 
-  /* landing social icons start */
-
-  .fa {
+   .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -103,18 +116,17 @@ header.masthead {
 
   section {
     padding: 50px 0;
-    margin: 150px;
 }
 
 
 /* about start */
 
 .containerabout {
-color: white;
-
-}
-
-/* about end */
+  color: white;
+  
+  }
+  
+  /* about end */
 
 /* timeline start */
 body{
@@ -180,6 +192,7 @@ body{
 
 /* timeline end */
 
+
 /* skills start */
 
 .centered {
@@ -198,6 +211,7 @@ body{
 
 /* skills end */
 
+
 /* Portfolio start */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
@@ -207,17 +221,17 @@ body{
     font-family: 'Poppins', sans-serif
 }
 
-body {
+/* body {
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #16384c
-}
+} */
 
 .container .card {
-    max-width: 400px;
+    max-width: 350px;
     height: 215px;
     margin: 30px 10px;
     padding: 20px 15px;
@@ -231,7 +245,7 @@ body {
 
 .container .card .imgContainer {
     position: relative;
-    width: 350px;
+    width: 310px;
     height: 250px;
     top: -50px;
     left: 10px;
@@ -270,6 +284,8 @@ body {
 }
 
 /* Portfolio end */
+
+
 
 /* Testimonials start */
 
@@ -350,7 +366,10 @@ body {
 
 /* Testimonials end */
 
-/* contact start*/
+
+
+
+  /* contact start*/
 
 @import url('https://fonts.googleapis.com/css?family=Yantramanav:100,300');
 
@@ -358,9 +377,9 @@ body {
 /* GLOBAL STYLES */
 /* ------------- */
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* body {
   background: #3952a3;
@@ -488,7 +507,7 @@ ul {
 /* MEDIA QUERIES */
 /* ------------- */
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -513,3 +532,5 @@ ul {
   }
 }
 /* contact end */
+
+  
