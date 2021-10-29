@@ -68,12 +68,42 @@ header.masthead {
 
   /* background end */
 
+  /* landing social icons start */
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+
+  /* landing social icons end */
+
   img {
     float: left;
   }
 
   section {
     padding: 50px 0;
+    margin: 150px;
 }
 
 /* timeline start */
@@ -139,6 +169,24 @@ body{
 
 
 /* timeline end */
+
+/* skills start */
+
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }  */
+
+  .card4:hover{
+   transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+
+
+
+/* skills end */
 
 /* Portfolio start */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
