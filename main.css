@@ -106,9 +106,19 @@ header.masthead {
     margin: 150px;
 }
 
+
+/* about start */
+
+.containerabout {
+color: white;
+
+}
+
+/* about end */
+
 /* timeline start */
 body{
-  background:#eee;
+  background:black;
   margin-top:20px;
 }
 .hori-timeline .events {
@@ -211,8 +221,8 @@ body{
     height: 215px;
     margin: 30px 10px;
     padding: 20px 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in-out
+    box-shadow: 0 5px 20px #0DB7FF;
+    transition 0.3s ease-in-out
 }
 
 .container .card:hover {
@@ -226,7 +236,7 @@ body{
     top: -50px;
     left: 10px;
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2)
+    box-shadow: #0DB7FF
 }
 
 .container .card .imgContainer img {
@@ -264,11 +274,11 @@ body{
 /* Testimonials start */
 
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-}
+} */
 
 /* body {
   display: flex;
@@ -297,7 +307,7 @@ body{
   display: block;
   text-align: center;
   color: #fff;
-  background-color: #6184a8;
+  background-color: #0EE4E8;
   padding: 2%;
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
