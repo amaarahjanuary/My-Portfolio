@@ -111,7 +111,8 @@ header.masthead {
   /* landing social icons end */
 
   img {
-    float: left;
+    border-radius: 70px;
+    /* float: left; */
   }
 
   section {
